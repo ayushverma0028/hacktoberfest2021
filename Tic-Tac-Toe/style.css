@@ -1,5 +1,6 @@
 body {
-    font-family: "Arial", sans-serif;
+    /* font-family: "Arial", sans-serif; */
+    font-family: 'Akronim', cursive;
 }
 
 section {
@@ -8,7 +9,7 @@ section {
 
 .game--title {
     font-size: 100px;
-    color: #d7a62f;
+    color: #bb8300;
     margin: 10px auto;
 }
 
@@ -17,16 +18,19 @@ section {
     grid-template-columns: repeat(3, auto);
     width: 306px;
     margin: 10px auto;
-    background-color: #11213a;
-    color: #04c0b2;
+    /* background-color: #fcfcfc; */
+    background-color: transparent;
+    box-shadow: 1px 1px 15px 3px gray;
+    /* color: #04c0b2; */
+    color: #ffffff;
 }
 
 .cell {
     font-family: "Permanent Marker", cursive;
     width: 100px;
     height: 100px;
-    box-shadow: 2px 2px 2px 2px #ecd7ba;
-    border: 2px solid #ecd7ba;
+    box-shadow: 2px 2px 2px 2px #8f806b;
+    /* border: 2px solid #8f806b; */
     cursor: pointer;
     line-height: 100px;
     font-size: 60px;
@@ -34,16 +38,25 @@ section {
 
 .game--status {
     font-size: 50px;
-    color: #d7a62f;
+    color: #bb8300;
     margin: 20px auto;
 }
 
 .game--restart {
-    background-color: #f7e4ac;
+    background-color: #6e6e6e;
     width: 200px;
     height: 50px;
     font-size: 25px;
-    color: #5586e2;
-    box-shadow: 2px 2px 2px 2px #d86c23;
-    border: 2px solid #d86c23;
+    color: white;
+    font-family: cursive;
+    border: 2px solid #8f806b;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.game--restart:hover {
+    background-color: #11213a;
+    box-shadow: 0px 2px 5px 2px #ffffff;
+    border: 2px solid #ffffff;
+    cursor: pointer;
 }
